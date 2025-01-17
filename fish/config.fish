@@ -7,6 +7,6 @@ end
 # <<< conda initialize <<<
 
 
-theme_gruvbox dark medium
+
 set -g fish_term24bit 0
 eval "$(/opt/homebrew/bin/brew shellenv)"
