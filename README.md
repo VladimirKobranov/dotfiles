@@ -3,12 +3,14 @@
 ## Requirements
 
 - Brew
-- iTerm2 (macos)
+- Stow
+- iTerm2
 - Neovim
 - NerdFonts (any)
 - Lazyvim
 - Fish | Fisher | Tide6
 - MC
+- Btop
 
 ## Content
 
@@ -16,6 +18,10 @@
 ##### Brew.sh
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+##### Stow
+```bash
+brew install stow
 ```
 ##### iTerm 2
 ```bash
@@ -41,27 +47,12 @@ tide configure
 ```bash
 brew install mc
 ```
-
-### Ubuntu:
-##### Nvim | Lazyvim
+##### Btop
 ```bash
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-rm -rf ~/.config/nvim/.git
-nvim
+brew install btop
 ```
-##### Fish | Fisher | Tide6
 
-```bash
-sudo apt install build-essential cmake libpcre2-dev gettext
-sudo apt-add-repository ppa:fish-shell/release-3
-sudo apt update
-sudo apt install fish
-echo /usr/local/bin/fish | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/fish
-curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
-fisher install IlanCosman/tide@v6
-tide configure
-```
+
 
 ### Extra: Tofu60 keyboard layout
 
@@ -70,6 +61,5 @@ tide configure
 ```bash
 git clone https://github.com/VladimirKobranov/dotfiles.git ~/.dotfiles/
 cd ~/.dotfiles
-chmod +x install.sh
-./install.sh
+brew stow .
 ```
