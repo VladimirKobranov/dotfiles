@@ -37,6 +37,7 @@ set wildmenu                  " Enhanced command-line completion
 set wildmode=list:longest     " List matches and complete up to the longest common string
 set laststatus=2              " Always display the status line
 set confirm                   " Ask to save changes when exiting
+set belloff=all               " Turn stupid sound off
 
 "===============================
 " Backup and Swap File Settings
@@ -61,7 +62,7 @@ call plug#end()
 " Visual and UI Settings
 "===============================
 set background=dark           " Use dark background
-" set cursorline              " Highlight current line
+set cursorline              " Highlight current line
 set wrap                      " Wrap long lines
 set scrolloff=5               " Keep 5 lines visible above/below the cursor
 

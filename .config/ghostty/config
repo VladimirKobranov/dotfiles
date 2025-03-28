@@ -1,0 +1,42 @@
+#===============================
+# VK | https://github.com/VladimirKobranov
+# linux & macoswwqafig
+#===============================
+
+#===============================
+# background
+#===============================
+background = #272727
+background-opacity = 0.9
+background-blur=true
+
+#===============================
+# Window-decoration
+#===============================
+macos-titlebar-proxy-icon=hidden
+# window-decoration=false
+
+#===============================
+# Keymaps
+#===============================
+keybind=ctrl+shift+r=reload_config
+# keybind=ctrl+n=new_window
+
+#===============================
+# Fonts
+#===============================
+font-size = 12
+font-style = Regular
+font-thicken = true
+
+
+#===============================
+# Actions
+#===============================
+confirm-close-surface=false
+
+
+#===============================
+# Macos fixes
+#===============================
+macos-option-as-alt=true
