@@ -10,3 +10,6 @@ opt.relativenumber = false
 
 -- vim.opt.clipboard = "copyq"
 -- vim.g.lazyvim_picker = "fzf"
+
+
+vim.g.root_spec = { "cwd" }
