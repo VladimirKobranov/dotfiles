@@ -10,3 +10,6 @@ set --export PATH $BUN_INSTALL/bin $PATH
 
 # run nvim with vim
 alias vim='nvim'
+
+# add z to fish
+zoxide init fish | source
