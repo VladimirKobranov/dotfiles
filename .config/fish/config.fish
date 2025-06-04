@@ -13,3 +13,10 @@ alias vim='nvim'
 
 # add z to fish
 zoxide init fish | source
+
+# Added by Windsurf
+fish_add_path /Users/vladkobranov/.codeium/windsurf/bin
+
+# air for go lang
+
+set -x PATH $PATH $HOME/go/bin
