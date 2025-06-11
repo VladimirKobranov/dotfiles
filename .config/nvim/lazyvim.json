@@ -4,7 +4,6 @@
     "lazyvim.plugins.extras.lang.git",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.tailwind",
-    "lazyvim.plugins.extras.lang.vue",
     "lazyvim.plugins.extras.ui.dashboard-nvim"
   ],
   "install_version": 8,
