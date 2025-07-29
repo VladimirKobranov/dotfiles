@@ -7,7 +7,7 @@
 # background
 #===============================
 background = #272727
-background-opacity = 0.9
+background-opacity = 1.0
 background-blur=true
 
 #===============================
