@@ -20,3 +20,6 @@ fish_add_path /Users/vladkobranov/.codeium/windsurf/bin
 # air for go lang
 
 set -x PATH $PATH $HOME/go/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
