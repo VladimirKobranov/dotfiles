@@ -23,3 +23,72 @@ set -x PATH $PATH $HOME/go/bin
 
 # Added by Antigravity
 fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity
+fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
+
+# Added by Antigravity IDE
+fish_add_path /Users/vladkobranov/.antigravity-ide/antigravity-ide/bin
