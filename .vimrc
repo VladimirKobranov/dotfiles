@@ -70,18 +70,18 @@ set scrolloff=5               " Keep 5 lines visible above/below the cursor
 " Theme and Colors
 "===============================
 " Gruvbox theme settings
-let g:gruvbox_contrast_dark = 'medium'
-let g:gruvbox_italic = 1
-
-if exists('+termguicolors')
-    set termguicolors         " Enable true colors
-endif
-colorscheme gruvbox           " Set Gruvbox as the colorscheme
+" let g:gruvbox_contrast_dark = 'medium'
+" let g:gruvbox_italic = 1
+"
+" if exists('+termguicolors')
+"     set termguicolors         " Enable true colors
+" endif
+" colorscheme gruvbox           " Set Gruvbox as the colorscheme
 
 " Make elements transparent
-autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
-autocmd vimenter * hi SignColumn guibg=NONE ctermbg=NONE
-autocmd vimenter * hi LineNr guibg=NONE ctermbg=NONE
+" autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+" autocmd vimenter * hi SignColumn guibg=NONE ctermbg=NONE
+" autocmd vimenter * hi LineNr guibg=NONE ctermbg=NONE
 
 "===============================
 " Clipboard Integration

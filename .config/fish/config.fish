@@ -92,3 +92,6 @@ fish_add_path /Users/vladkobranov/.antigravity/antigravity/bin
 
 # Added by Antigravity IDE
 fish_add_path /Users/vladkobranov/.antigravity-ide/antigravity-ide/bin
+
+# Doom Emacs
+fish_add_path "$HOME/.config/emacs/bin"
