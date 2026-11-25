@@ -63,3 +63,18 @@ git clone https://github.com/VladimirKobranov/dotfiles.git ~/.dotfiles/
 cd ~/.dotfiles
 brew stow .
 ```
+
+### Zsh
+
+The `zsh/` Stow package contains the active shell startup files and Powerlevel10k configuration. Oh My Zsh and its plugins remain installed dependencies under `~/.oh-my-zsh`.
+
+Required Zsh plugins: `git`, `zsh-autosuggestions`, `zsh-syntax-highlighting`, and `zoxide`. The active theme is Powerlevel10k.
+
+Install GNU Stow and apply the package from this checkout:
+
+```bash
+brew install stow
+stow --target="$HOME" zsh
+```
+
+On a machine with existing Zsh files, back them up before applying the package.
