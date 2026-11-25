@@ -95,3 +95,10 @@ fish_add_path /Users/vladkobranov/.antigravity-ide/antigravity-ide/bin
 
 # Doom Emacs
 fish_add_path "$HOME/.config/emacs/bin"
+
+# pnpm
+set -gx PNPM_HOME "/Users/vladkobranov/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
